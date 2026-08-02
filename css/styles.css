@@ -49,3 +49,6 @@ body{font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Ne
   .header-grid{flex-direction:row}
   .main-nav{display:none}
 }
+.contact-mini{color:var(--muted);font-weight:600}
+.contact-mini a{color:var(--accent);text-decoration:none;margin-right:8px}
+.contact-info{background:rgba(11,110,253,0.04);padding:12px;border-radius:8px;margin-top:12px}

@@ -29,3 +29,8 @@ Extras added by assistant:
 - favicon (assets/favicon.svg)
 
 To deploy on Netlify, push to GitHub and connect as described earlier. The contact form will work automatically when deployed to Netlify.
+
+
+Contact for this site:
+- Phone: +91 77028 67684
+- Email: gunee.rtv@gmail.com
