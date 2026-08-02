@@ -2,5 +2,14 @@
   publish = "."
   command = ""
 
-[context.production.environment]
+[build.environment]
   NODE_ENV = "production"
+
+[dev]
+  command = ""
+
+# Forms will be handled by Netlify automatically when deployed
+
+[context.production]
+  publish = "."
+

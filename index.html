@@ -4,47 +4,63 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Novus Pharma — Innovative Healthcare Solutions</title>
-  <meta name="description" content="Novus Pharma: Research-driven medicines, trusted manufacturing, and global supply for better patient outcomes." />
+  <meta name="description" content="Novus Pharma: research-driven APIs, finished formulations, and quality manufacturing for global partners." />
+  <meta name="keywords" content="pharmaceuticals, API, manufacturing, research, formulations, quality" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Novus Pharma — Innovative Healthcare Solutions" />
+  <meta property="og:description" content="Research-led medicines, scalable manufacturing and global supply for better patient outcomes." />
+  <meta property="og:image" content="/assets/hero.jpg" />
+  <meta property="og:type" content="website" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-grid">
-      <h1 class="logo">Novus<span>Pharma</span></h1>
-      <nav class="main-nav">
-        <a href="#about">About</a>
-        <a href="#products">Products</a>
-        <a href="#rnd">R&amp;D</a>
-        <a href="#careers">Careers</a>
-        <a href="#contact" class="btn">Contact</a>
+      <a class="logo" href="/">Novus<span>Pharma</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="/about.html">About</a>
+        <a href="/products.html">Products</a>
+        <a href="/rnd.html">R&D</a>
+        <a href="/careers.html">Careers</a>
+        <a href="/index.html#contact" class="btn">Contact</a>
       </nav>
     </div>
   </header>
 
   <main>
-    <section class="hero">
+    <section class="hero" role="region" aria-label="Hero">
       <div class="container hero-grid">
         <div class="hero-text">
-          <h2>Research-led medicines. Scalable manufacturing. Global reach.</h2>
-          <p>Delivering high-quality active pharmaceutical ingredients and finished formulations that make medicines safer, more effective, and more accessible worldwide.</p>
+          <h1>Research-led medicines. Scalable manufacturing. Global reach.</h1>
+          <p class="lead">Delivering high-quality active pharmaceutical ingredients and finished formulations under rigorous quality systems to partners and patients worldwide.</p>
           <div class="hero-cta">
-            <a href="#products" class="btn large">Explore Products</a>
-            <a href="#rnd" class="link">Our R&amp;D Work</a>
+            <a href="/products.html" class="btn large">Explore Products</a>
+            <a href="/rnd.html" class="link">Our R&D Work</a>
           </div>
+          <ul class="trusted">
+            <li>cGMP manufacturing</li>
+            <li>Regulatory expertise</li>
+            <li>Global distribution</li>
+          </ul>
         </div>
-        <div class="hero-art">
-          <img src="assets/hero.jpg" alt="Laboratory research"/>
+        <div class="hero-art" aria-hidden="true">
+          <img src="/assets/hero.jpg" alt="Laboratory research and manufacturing"/>
         </div>
       </div>
     </section>
 
     <section id="about" class="container about">
-      <h3>About Novus Pharma</h3>
-      <p>Novus Pharma is committed to advancing healthcare through robust research, responsible manufacturing, and strict quality systems. Our teams focus on delivering reliable APIs, generics and specialty formulations to partners and patients across regions.</p>
+      <h2>About Novus Pharma</h2>
+      <p>Novus Pharma blends deep scientific expertise with robust manufacturing capabilities to deliver reliable medicines worldwide. From early-stage development to commercial supply, quality is engineered into every step.</p>
       <div class="stats-grid">
         <div class="stat">
           <strong>30+</strong>
@@ -56,72 +72,75 @@
         </div>
         <div class="stat">
           <strong>500+</strong>
-          <span>Products &amp; formulations</span>
+          <span>Products & formulations</span>
         </div>
       </div>
     </section>
 
     <section id="products" class="container products">
-      <h3>Products & Solutions</h3>
-      <p>We provide a broad portfolio including APIs, finished dose forms, and custom development services tailored to regulatory and market needs.</p>
+      <h2>Products & Solutions</h2>
+      <p>We offer a broad portfolio across APIs, finished-dose forms, and custom development services informed by regulatory and market requirements.</p>
       <div class="cards">
         <article class="card">
-          <img src="assets/prod1.jpg" alt="Capsule production">
-          <h4>Active Pharmaceutical Ingredients</h4>
-          <p>High-purity APIs manufactured under strict cGMP standards and validated processes.</p>
+          <img src="/assets/prod1.jpg" alt="Active Pharmaceutical Ingredients">
+          <h3>Active Pharmaceutical Ingredients</h3>
+          <p>High-purity APIs manufactured under strict cGMP standards with validated analytical methods.</p>
         </article>
         <article class="card">
-          <img src="assets/prod2.jpg" alt="Tablets">
-          <h4>Finished Dosage Forms</h4>
-          <p>Tablets, capsules and sterile preparations designed for consistent performance and shelf life.</p>
+          <img src="/assets/prod2.jpg" alt="Finished Dosage Forms">
+          <h3>Finished Dosage Forms</h3>
+          <p>Tablets, capsules and sterile preparations designed for stability and consistent clinical performance.</p>
         </article>
         <article class="card">
-          <img src="assets/prod3.jpg" alt="Research">
-          <h4>Custom Development &amp; R&amp;D</h4>
-          <p>From feasibility to scale-up, our R&amp;D capabilities support complex formulation and process challenges.</p>
+          <img src="/assets/prod3.jpg" alt="Custom Development and R&D">
+          <h3>Custom Development & R&D</h3>
+          <p>From feasibility to scale-up, our R&D teams solve complex formulation and process challenges.</p>
         </article>
       </div>
     </section>
 
-    <section id="rnd" class="container rnd">
-      <h3>R&amp;D and Quality</h3>
-      <p>Our research teams focus on robust process chemistry, analytical development, and regulatory support to ensure safe, effective therapies reach patients faster.</p>
-      <div class="two-col">
-        <div>
-          <h4>Analytical Excellence</h4>
-          <p>Advanced labs with method development, stability studies, and validation to meet global regulatory expectations.</p>
-        </div>
-        <div>
-          <h4>Quality Systems</h4>
-          <p>Comprehensive quality management, supplier assurance, and traceability built into every stage of manufacturing.</p>
-        </div>
-      </div>
+    <section class="container rnd-preview">
+      <h2>R&D and Quality</h2>
+      <p>Our laboratories and analytical teams drive innovation while meeting stringent regulatory expectations and ensuring product safety.</p>
+      <a href="/rnd.html" class="btn">Read more</a>
     </section>
 
     <section id="careers" class="container careers">
-      <h3>Careers</h3>
-      <p>Join a collaborative environment where science and manufacturing meet. We hire across R&amp;D, quality, operations, and commercial functions.</p>
-      <a href="#contact" class="btn">Contact Recruiting</a>
+      <h2>Careers</h2>
+      <p>Join a collaborative environment where science and manufacturing meet. Opportunities across R&D, quality, operations and commercial teams.</p>
+      <a href="/careers.html" class="btn">View Openings</a>
     </section>
 
     <section id="contact" class="container contact">
-      <h3>Contact Us</h3>
-      <p>For inquiries about partnerships, sourcing, or careers, reach out and our team will respond promptly.</p>
-      <form class="contact-form" onsubmit="handleContact(event)">
-        <input type="text" name="name" placeholder="Your name" required>
-        <input type="email" name="email" placeholder="Your email" required>
-        <textarea name="message" placeholder="How can we help?" required></textarea>
+      <h2>Contact Us</h2>
+      <p>For partnerships, sourcing or careers, contact our team. Netlify Forms powers this demo contact form.</p>
+
+      <form name="contact" method="POST" data-netlify="true" action="/contact-success.html" class="contact-form">
+        <input type="hidden" name="form-name" value="contact">
+        <label><span class="sr-only">Name</span>
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label><span class="sr-only">Email</span>
+          <input type="email" name="email" placeholder="Your email" required>
+        </label>
+        <label><span class="sr-only">Message</span>
+          <textarea name="message" placeholder="How can we help?" required></textarea>
+        </label>
         <button type="submit" class="btn">Send Message</button>
       </form>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
+    <div class="container footer-grid">
       <p>&copy; <span id="yr"></span> Novus Pharma. All rights reserved.</p>
+      <nav class="foot-nav">
+        <a href="/privacy.html">Privacy</a>
+        <a href="/sitemap.xml">Sitemap</a>
+      </nav>
     </div>
   </footer>
 
-  <script src="js/main.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>

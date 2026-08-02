@@ -20,3 +20,12 @@ If you prefer CI-less deploy from local machine, install the Netlify CLI and run
    netlify login
    netlify deploy --prod --dir=.
 
+
+
+Extras added by assistant:
+- Multi-page site: about, products, rnd, careers
+- Netlify-friendly contact form (Netlify Forms)
+- sitemap.xml and robots.txt
+- favicon (assets/favicon.svg)
+
+To deploy on Netlify, push to GitHub and connect as described earlier. The contact form will work automatically when deployed to Netlify.
