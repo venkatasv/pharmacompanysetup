@@ -1,4 +1,4 @@
-# Novus Pharma (static site)
+# MAcvista (static site)
 
 This is a simple static site for a pharmaceutical company built with plain HTML/CSS/JS.
 
